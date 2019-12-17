@@ -24,6 +24,7 @@ namespace LoadDisplaySave
 
                 Cv2.WaitKey();
                 Cv2.DestroyAllWindows();
+
             }
         }
     }
