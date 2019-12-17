@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadDisplaySave", "Chapter2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter4", "Chapter4", "{5AAB6A1B-3A2A-4EAD-A095-1A464C52ADF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatObjectTutorial", "MatObjectTutorial\MatObjectTutorial.csproj", "{08826DF2-6421-4496-8E56-575643529BA5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatObjectTutorial", "Chapter4\MatObjectTutorial\MatObjectTutorial.csproj", "{08826DF2-6421-4496-8E56-575643529BA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
