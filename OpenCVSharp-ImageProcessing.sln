@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter2", "Chapter2", "{8B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadDisplaySave", "Chapter2\LoadDisplaySave\LoadDisplaySave.csproj", "{FC3428F5-4952-4735-AF99-9E6225E8465D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter4", "Chapter4", "{5AAB6A1B-3A2A-4EAD-A095-1A464C52ADF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatObjectTutorial", "MatObjectTutorial\MatObjectTutorial.csproj", "{08826DF2-6421-4496-8E56-575643529BA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{FC3428F5-4952-4735-AF99-9E6225E8465D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC3428F5-4952-4735-AF99-9E6225E8465D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC3428F5-4952-4735-AF99-9E6225E8465D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08826DF2-6421-4496-8E56-575643529BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08826DF2-6421-4496-8E56-575643529BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08826DF2-6421-4496-8E56-575643529BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08826DF2-6421-4496-8E56-575643529BA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FC3428F5-4952-4735-AF99-9E6225E8465D} = {8BC1161A-26A5-44F4-A2CD-84B8CDBD1115}
+		{08826DF2-6421-4496-8E56-575643529BA5} = {5AAB6A1B-3A2A-4EAD-A095-1A464C52ADF5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BBE2A200-4CAA-4028-A7B3-E5F666652880}
