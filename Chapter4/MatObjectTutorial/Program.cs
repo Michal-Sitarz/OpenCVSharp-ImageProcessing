@@ -14,18 +14,24 @@ namespace MatObjectTutorial
             Cv2.ImShow("m1", mat1);
             */
 
-            string path = @"../../images/leafSaved.jpg";
+            string path = @"../../images/paradise.jpg";
             Mat colorImage = Cv2.ImRead(path, ImreadModes.Color);
+
+            /*
             Cv2.ImShow("original", colorImage);
-
             Mat clonedImage = colorImage.Clone();
-
             Cv2.ImShow("cloned", clonedImage);
-
             Mat anotherCloned = new Mat();
             colorImage.CopyTo(anotherCloned);
-
             Cv2.ImShow("another image", anotherCloned);
+            */
+
+            Mat[] channels;
+            Cv2.Split(colorImage, out channels);
+            Cv2.ImShow("Blue", channels[0]);
+            Cv2.ImShow("Green", channels[1]);
+            Cv2.ImShow("Red", channels[2]);
+
 
             Cv2.WaitKey();
             Cv2.DestroyAllWindows();
