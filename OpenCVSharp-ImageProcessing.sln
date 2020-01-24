@@ -17,13 +17,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter5", "Chapter5", "{19
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstImageProcessingSteps", "Chapter5\FirstImageProcessingSteps\FirstImageProcessingSteps.csproj", "{852DEA3D-E4AF-47D3-A1CD-D0276E898039}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitwiseOperationsOnImages", "Chapter5\BitwiseOperationsOnImages\BitwiseOperationsOnImages.csproj", "{83408796-E418-47CA-944F-FE9E39ECC0C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitwiseOperationsOnImages", "Chapter5\BitwiseOperationsOnImages\BitwiseOperationsOnImages.csproj", "{83408796-E418-47CA-944F-FE9E39ECC0C8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter6", "Chapter6", "{37DC4D84-CD21-43A4-A3A0-246998B1BF5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThresholdingDemo", "Chapter6\ThresholdingDemo\ThresholdingDemo.csproj", "{87800285-8389-4A61-BBAB-214EA5F2DDE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThresholdingDemo", "Chapter6\ThresholdingDemo\ThresholdingDemo.csproj", "{87800285-8389-4A61-BBAB-214EA5F2DDE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtsusThresholdingDemo", "Chapter6\OtsusThresholdingDemo\OtsusThresholdingDemo.csproj", "{F2DC4A5B-55F6-4D91-BAE3-96B00F6DF7BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OtsusThresholdingDemo", "Chapter6\OtsusThresholdingDemo\OtsusThresholdingDemo.csproj", "{F2DC4A5B-55F6-4D91-BAE3-96B00F6DF7BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter7", "Chapter7", "{9DF75BD8-B109-46FE-92CE-945B7E6D762F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HistogramDemo", "Chapter7\HistogramDemo\HistogramDemo.csproj", "{B9411D4E-CECE-4B8B-BE51-C15105DD6D46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HistogramExerciseRGB", "Chapter7\HistogramExerciseRGB\HistogramExerciseRGB.csproj", "{CA91D970-571C-48F9-8A92-8ED7084C0EB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +65,14 @@ Global
 		{F2DC4A5B-55F6-4D91-BAE3-96B00F6DF7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2DC4A5B-55F6-4D91-BAE3-96B00F6DF7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2DC4A5B-55F6-4D91-BAE3-96B00F6DF7BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9411D4E-CECE-4B8B-BE51-C15105DD6D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9411D4E-CECE-4B8B-BE51-C15105DD6D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9411D4E-CECE-4B8B-BE51-C15105DD6D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9411D4E-CECE-4B8B-BE51-C15105DD6D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA91D970-571C-48F9-8A92-8ED7084C0EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA91D970-571C-48F9-8A92-8ED7084C0EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA91D970-571C-48F9-8A92-8ED7084C0EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA91D970-571C-48F9-8A92-8ED7084C0EB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +85,8 @@ Global
 		{83408796-E418-47CA-944F-FE9E39ECC0C8} = {199B7CC5-0609-48A2-8101-179BC8C867BE}
 		{87800285-8389-4A61-BBAB-214EA5F2DDE1} = {37DC4D84-CD21-43A4-A3A0-246998B1BF5F}
 		{F2DC4A5B-55F6-4D91-BAE3-96B00F6DF7BA} = {37DC4D84-CD21-43A4-A3A0-246998B1BF5F}
+		{B9411D4E-CECE-4B8B-BE51-C15105DD6D46} = {9DF75BD8-B109-46FE-92CE-945B7E6D762F}
+		{CA91D970-571C-48F9-8A92-8ED7084C0EB3} = {9DF75BD8-B109-46FE-92CE-945B7E6D762F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BBE2A200-4CAA-4028-A7B3-E5F666652880}

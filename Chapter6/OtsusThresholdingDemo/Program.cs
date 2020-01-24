@@ -19,8 +19,7 @@ namespace OtsusThresholdingDemo
             Cv2.ImShow("original", image);
             Cv2.ImShow("grayscaled", grayscaled);
             Cv2.ImShow("otsu's threshold", otsuThreshold);
-
-
+            
             Cv2.WaitKey();
             Cv2.DestroyAllWindows();
 
